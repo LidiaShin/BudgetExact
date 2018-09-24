@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="css/master.css" rel="stylesheet" />
+
+    <style type="text/css">
+        .auto-style1 {
+            width: 219px;
+            height: 200px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="main-container">
+    <form id="form1" runat="server">
+        <div class="header">
+
+            <div class="top-nav">
+                <a href="Default.aspx">Home</a>
+                <span>|</span>
+                <a href="Reports.aspx">Reports</a>
+                <span>|</span>
+                <a href="MyProfile.aspx">My profile</a>
+                <span>|</span>
+                <a href="Categories.aspx">Categories</a>
+                <span>|</span>
+                <a href="Accounts.aspx">Accounts</a>
+                <span>|</span>
+                <a href="Budgets.aspx">Budgets</a>
+                <span>|</span>
+
+            </div>
+            <img alt="logo" class="auto-style1" src="images/logo.jpg" />
+            <div class="main-text-header">
+                Money Watch
+            </div>
+             <div class="main-text-subheader">
+                Best solution to manage your expenses
+            </div>
+        </div>
+
+    <div class="content">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+        <div class="footer">
+            <span class="footer-text">Copyright 2018 - COMP231 Final Project - All rights reserved.</span>
+        </div>
+    </form>
+    </div>
+</body>
+</html>

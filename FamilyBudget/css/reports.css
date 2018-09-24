@@ -1,0 +1,15 @@
+﻿body {
+}
+.reports {
+    height: 600px;
+    text-align:center;
+}
+.report-request{
+    margin-left:auto;
+    margin-right:auto;
+    width:400px;
+    height:100px;
+    background-color:darkseagreen;
+    z-index:5;
+    border-radius:5px;
+}

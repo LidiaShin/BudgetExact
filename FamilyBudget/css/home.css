@@ -1,0 +1,14 @@
+﻿body {
+}
+.current-status{
+    text-align:center;
+}
+.new-transaction{
+    width:500px;
+    height:250px;
+    background-color:burlywood;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+
+}
